@@ -1,0 +1,118 @@
+% This is samplepaper.tex, a sample chapter demonstrating the
+% LLNCS macro package for Springer Computer Science proceedings;
+% Version 2.20 of 2017/10/04
+%
+\documentclass[runningheads]{llncs}
+%
+\usepackage{graphicx}
+% Used for displaying a sample figure. If possible, figure files should
+% be included in EPS format.
+%
+% If you use the hyperref package, please uncomment the following line
+% to display URLs in blue roman font according to Springer's eBook style:
+% \renewcommand\UrlFont{\color{blue}\rmfamily}
+
+\begin{document}
+%
+\title{Contribution Title\thanks{Supported by organization x.}}
+%
+%\titlerunning{Abbreviated paper title}
+% If the paper title is too long for the running head, you can set
+% an abbreviated paper title here
+%
+\author{Felix Voigtländer\inst{1}}
+%
+\authorrunning{F. Author et al.}
+% First names are abbreviated in the running head.
+% If there are more than two authors, 'et al.' is used.
+%
+\institute{RWTH Aachen, Aachen 52062, Germany}
+%
+\maketitle              % typeset the header of the contribution
+%
+\begin{abstract}
+The abstract should briefly summarize the contents of the paper in
+150--250 words.
+
+\keywords{Prototyping \and RAD \and Another keyword.}
+\end{abstract}
+%
+%
+%
+\section{Summary}
+
+Prototyping has many advantages, with the technique users are more involved in development, requirements are investigated more clearly, 
+end users are more commited to the project and cleaner code is used with many more advantages \cite{ref_proto_prac}. But a project using prototyping is hard to manage,
+especially using older management models like the waterfall modell, which works best with clearly defined and static requirements.
+Yet prototyping results in rapidly shifting requirements \cite{ref_proto_prac} \cite{ref_proto_ui} which makes older modells unsuitable and
+inefficient when using this approach.
+
+Traditional modells in particular the waterfall model is vulnerable to change and inefficient when using customer feedback resulting in massive reworks 
+at the end of projects. With the use of prototyping focusing on customer feedback and their involvement has become increasingly important. 
+For which the waterfall model is not suitable, which is one of many reasons to turn to agile.
+
+Agile is flexible and thus can easily react to feedback from users and stakeholders. Users are able to bring in their feedback during 
+all stages in development, instead of unclear and static documentation at the beginning of a project, leading to better user satisfaction and 
+a better product. Due to the emphasis on early and fast prototyping users are able to give direct feedback, which is more easily implemented at such early stages 
+in development. Agile also aims to be self improving making processes and development more efficient and adaptable to change.
+
+Kanban is an agile tool for visualizing workflow and managing it. It limits work in progress, improves the flow of parallel tasks in development
+and is a great tool for management. This model does not force organizational, structural or process changes, instead change happens iteratively.
+
+Rapid Prototyping in combination with agile methodoliges and the use of the Kanban model improve the negative impact rapid prototyping has on managing projects.
+
+
+\section{List of chapter titles}
+
+\subsection{Introduction}
+\subsection{Prototyping}
+\subsection{Waterfall modell}
+\subsection{Agile Development}
+\subsection{Kanban}
+\subsection{Discussion}
+\subsection{Conclusion}
+
+
+
+%
+% ---- Bibliography ----
+%
+% BibTeX users should specify bibliography style 'splncs04'.
+% References will then be sorted and formatted in the correct style.
+%
+% \bibliographystyle{splncs04}
+% \bibliography{mybibliography}
+%
+\begin{thebibliography}{8}
+
+\bibitem{ref_proto_prac}
+Paul Beynon-Davies, Douglas Tudhope, Hugh Mackay: Information systems prototyping in practice. 
+Journal of Information Technology  \textbf{14}(1), 107--120 (1999) 
+
+\bibitem{ref_proto_health}
+R. Lenz, K.A. Kuhn: Towards a continuous evolution and adaptation of
+information systems in healthcare. 
+International Journal of Medical Informatics   \textbf{2004}(73), 75--89
+
+\bibitem{ref_proto_ui}
+Dirk Bäumer, Walter R. Bischofberger, Horst Lichter, Heinz Züllighoven: User Interface Prototyping - Concepts, Tools, and Experience.
+Proceedings - International Conference on Software Engineering 1996, DBLP \doi{10.1109/ICSE.1996.493447}
+
+\bibitem{ref_waterfall}
+Dr. Winston W. Rovce: MANAGING THE DEVELOPMENT OF LARGE SOFTWARE SYSTEMS (1987)
+
+\bibitem{ref_agilemanifesto}
+The Agile Manifesto, \url{https://agilemanifesto.org/}. Last accessed 15
+Nov 2020
+
+\bibitem{ref_featurecreep}
+Feature Creep, \url{https://www.agile-academy.com/de/agiles-lexikon/feature-creep/
+}. Last accessed 15
+Nov 2020
+
+\bibitem{ref_management_kanban}
+Eric Brechner: Agile Project Management with Kanban. Microsoft Press,
+Redmond, Washington 98052-6399 (2015)
+
+\end{thebibliography} 
+\end{document}
